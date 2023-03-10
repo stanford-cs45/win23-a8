@@ -11,11 +11,15 @@ by keeping the password in plain text, in the `PASSWORD` environment variable.
 
 ## Building the code
 
+This code is written in JavaScript and requires Node.JS.
+
 Make sure to run `npm ci` to install all the dependencies. Then,
 run `npm run build` to build the application. It will output to the `build`
 directory.
 
 ## Running the server
+
+This code is written in JavaScript and requires Node.JS to run.
 
 Make sure that dependencies are installed via `npm ci`. Then, ensure that
 the `/data` directory exists and is persisted (this is where messages are
