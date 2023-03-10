@@ -5,6 +5,10 @@
 	export let form: ActionData;
 </script>
 
+<svelte:head>
+	<title>The World's Simplest Messageboard</title>
+</svelte:head>
+
 <h1>The World's Simplest Messageboard</h1>
 <p>Type a message and the secret password to post:</p>
 <form method="POST">
